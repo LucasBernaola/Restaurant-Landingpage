@@ -12,6 +12,14 @@
   --color-white: #FFFFFF;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
